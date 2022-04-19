@@ -223,9 +223,7 @@ Name = StringVar()
 w2 = Label(root, justify=LEFT, text="Disease Predictor using Machine Learning", fg="Red", bg="White")
 w2.config(font=("Times",30,"bold italic"))
 w2.grid(row=1, column=0, columnspan=2, padx=100)
-w2 = Label(root, justify=LEFT, text="A Project by Shrimad Mishra", fg="Pink", bg="Blue")
-w2.config(font=("Times",30,"bold italic"))
-w2.grid(row=2, column=0, columnspan=2, padx=100)
+
 
 NameLb = Label(root, text="Name of the Patient", fg="Red", bg="Sky Blue")
 NameLb.config(font=("Times",15,"bold italic"))
